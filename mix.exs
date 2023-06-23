@@ -21,9 +21,9 @@ defmodule Tgpt.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:httpoison, "~> 1.8"},
-      {:poison, "~> 3.0"},
-      {:toml, "~> 0.5.2"}
+      {:poison, "~> 5.0"},
+      {:httpoison, "~> 2.1"},
+      {:toml, "~> 0.7.0"}
     ]
   end
 end
